@@ -49,3 +49,9 @@ namespace apkCalculadora
                 {
                     res = n1 / n2;
                 }
+                else
+                {
+                    Console.WriteLine("no se pueden hacer calculos multiples");
+                }
+
+            }
