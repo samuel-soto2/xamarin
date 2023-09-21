@@ -36,3 +36,8 @@ namespace apkCalculadora
                 if (op == "suma")
                 {
                     res = n1 + n2;
+                }
+                else if (op == "resta")
+                {
+                    res = n1 - n2;
+                }
