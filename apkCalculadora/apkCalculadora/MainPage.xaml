@@ -15,4 +15,13 @@
                 FontAttributes="Bold"
                 FontSize="25"
                 TextColor="#56403C"   />
+
+        <Label TextColor="Blue" Text="------------------"  x:Name="lblRes"
+                   HorizontalOptions="Center"
+                   FontFamily="italic"
+                   FontSize="20"/>
+        <Entry Placeholder="Ingresa el primer numero" Keyboard="Numeric" x:Name="txtn1" />
+        <Entry Placeholder="Ingresa el segundo numero" Keyboard="Numeric" x:Name="txtn2"/>
+        <Label Text="Selecione la operacion"  />
+        <Picker x:Name="wkOperacion" />
         
