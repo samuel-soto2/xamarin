@@ -21,3 +21,15 @@ namespace apkCalculadora
             calcular.Clicked += Calcular_Clicked;
 
         }
+        private void WkOperacion_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Calcular_Clicked(object sender, EventArgs e)
+        {
+            if (!string.IsNullOrEmpty(txtn1.Text) && !string.IsNullOrEmpty(txtn2.Text))
+            {
+                String op = wkOperacion.SelectedItem.ToString();
+                int n1 = Int32.Parse(txtn1.Text);
+                int n2 = Int32.Parse(txtn2.Text);
