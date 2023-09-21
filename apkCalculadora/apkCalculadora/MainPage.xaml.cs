@@ -41,3 +41,7 @@ namespace apkCalculadora
                 {
                     res = n1 - n2;
                 }
+                else if (op == "multiplicacion")
+                {
+                    res = n1 * n2;
+                }
