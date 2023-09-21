@@ -55,3 +55,11 @@ namespace apkCalculadora
                 }
 
             }
+            else
+            {
+                DisplayAlert("Datos erroneos", "Por favor llene los cuadros de texto correctamente", "Ok");
+            }
+            lblRes.Text = res + "";
+        }
+    }
+}
