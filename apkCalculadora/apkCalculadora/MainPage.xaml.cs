@@ -33,3 +33,6 @@ namespace apkCalculadora
                 String op = wkOperacion.SelectedItem.ToString();
                 int n1 = Int32.Parse(txtn1.Text);
                 int n2 = Int32.Parse(txtn2.Text);
+                if (op == "suma")
+                {
+                    res = n1 + n2;
