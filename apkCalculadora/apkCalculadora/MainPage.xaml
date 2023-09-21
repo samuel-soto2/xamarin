@@ -25,3 +25,11 @@
         <Label Text="Selecione la operacion"  />
         <Picker x:Name="wkOperacion" />
         
+        <Button Text="Calcular" x:Name="calcular" 
+                    BackgroundColor="#02C0E7"/>
+
+
+    </StackLayout>
+
+</ContentPage>
+        
