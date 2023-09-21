@@ -4,4 +4,15 @@
              xmlns:local="clr-namespace:apkCalculadora"
              x:Class="apkCalculadora.MainPage">
 
-    
+    <StackLayout
+         HorizontalOptions="Center"
+        VerticalOptions="Center"
+           >
+        
+
+        <Label Text="Calculadora!" 
+                HorizontalOptions="Center"
+                FontAttributes="Bold"
+                FontSize="25"
+                TextColor="#56403C"   />
+        
